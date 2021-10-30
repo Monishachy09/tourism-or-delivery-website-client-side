@@ -1,0 +1,51 @@
+[
+
+    {
+        "id":"1",
+        "Img":"https://i.ibb.co/7SbC66j/tool.png",
+        "tittle":"Travel spend and policy complicance"
+    },    
+    {
+        "id":"2",
+        "Img":"https://i.ibb.co/K2Kvng0/tool-3.png",
+        "tittle":"Custom reporting and saving analysis"
+    },    
+    {
+        "id":"3",
+        "Img":"https://i.ibb.co/4SHdSjw/tool-2.png",
+        "tittle":"Duty of care"
+    },    
+    {
+        "id":"4",
+        "Img":"https://i.ibb.co/wRds1kg/tool-4.png",
+        "tittle":"Customaization"
+    },    
+    {
+        "id":"5",
+        "Img":"https://i.ibb.co/w4WZHhx/tool-6.png",
+        "tittle":"Customer Care"
+    },    
+    {
+        "id":"6",
+        "Img":"https://i.ibb.co/1Jttk7v/tool-5.png",
+        "tittle":"Intergrations"
+    },    
+    {
+        "id":"7",
+        "Img":"https://i.ibb.co/ZNGry1W/tool-8.png",
+        "tittle":"Payments and invoices"
+    },   
+    {
+        "id":"8",
+        "Img":"https://i.ibb.co/DLkWCgh/tool-7.png",
+        "tittle":"Accounts Managements"
+    }    
+   
+
+
+
+
+
+
+
+]

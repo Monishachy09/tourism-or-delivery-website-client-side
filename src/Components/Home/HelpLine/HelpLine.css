@@ -1,0 +1,13 @@
+.check-bg{
+    padding: 25px 10px;
+    
+    /* border: 1px solid grey; */
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px #e4e4e4;
+    min-height: 220px;
+}
+
+.info{
+    color: #E8604C;
+    font-weight: 200;
+}

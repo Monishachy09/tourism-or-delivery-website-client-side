@@ -1,0 +1,25 @@
+Navbar {
+    margin: 50px;
+    padding: 5px;
+    color: black;
+    display: flex;
+    height: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.head{
+    font-style: italic;
+    font-weight: 700;
+}
+span.bandage.bg-primary{
+    position: relative;
+    font-size: 17px !important;
+    padding: 0 !important;
+    top:-6px !important;
+    background-color: blueviolet !important;
+    width: 15px !important;
+    display: inline-block;
+    border-radius: 50%;
+}

@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Header from './Components/Home/Header/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Banner from './Components/Home/banner/Banner';
+import Home from './Components/Home/Home/Home';
+import AboutUs from './Components/Home/AboutUs/AboutUs';
+import NotFound from './Components/NotFound/NotFound';
+import HelpLine from './Components/Home/HelpLine/HelpLine';
+import Services from './Components/Home/services/Services';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+   <Router>
+        <Header/>
+      <Switch>
+        <Route exact path="/"><Home/> </Route>
+        <Route path="/home"><Home/> </Route>
+        <Route path="/services"><Services/></Route>
+        <Route path="/conditions"><HelpLine/></Route>
+        <Route path="/aboutUs"><AboutUs/></Route>
+        {/* <PrivateRoute path="/singleService/:id"><SingleService/></PrivateRoute>
+        <PrivateRoute path="/singleCondition/:id"><SingleCondition/></PrivateRoute> */}
+        <Route path="*"><NotFound/></Route>
+      </Switch>
+      </Router>
     </div>
   );
 }
