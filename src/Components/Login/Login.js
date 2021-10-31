@@ -1,10 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
     const { allContext } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+
+    const Redirect = location?.state?.from;
     const { googleSignIn, signInWithEmail, getEmail, getPassword, error } = allContext;
     return (
         <div className="login-form">

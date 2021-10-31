@@ -1,16 +1,15 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
+// import FakeData from '../../AllData/fakeData.json'
 
 
-const useCourses = () => {
-        const [courses, setCourses] = useState([]);
+// const useCourses = () => {
+//         const [courses, setCourses] = useState([]);
 
-     useEffect(() => {
-         fetch("/FakeData.json")
-         .then((res) => res.json())
-         .then((data) => setCourses(data));
-     } ,[])
+//         useEffect (() => 
+//         {
+//             setCourses(FakeData);
+//     },[])
+//     return {courses, setCourses};
+// };
 
-    return {courses, setCourses};
-};
-
-export default useCourses;
+// export default useCourses;

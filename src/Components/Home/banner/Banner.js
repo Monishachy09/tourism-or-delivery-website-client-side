@@ -1,6 +1,7 @@
 import { Carousel } from 'react-bootstrap';
 import React, { useState } from 'react';
 import { useEffect } from 'react';
+import Slide from 'react-reveal/Slide';
 import './Banner.css';
 
 const Banner = () => {
@@ -49,12 +50,18 @@ const Banner = () => {
                                 <div className="row align-items-center carousel-sec">
 
                                     <div className="col-md-6 col-sm-12"style={{paddingRight:'90px'}} >
-                                        <h1 className="new" style={{color:'#E8614D'}}>{item.title}</h1>
-                                        <p style={{color:'#FFFFFF'}}>{item.subTitle}</p>
+                                       <Slide right>
+                                       <h1 className="new" style={{color:'#E8614D'}}>{item.title}</h1>
+                                       </Slide>
+                                       <Slide left>
+                                       <p style={{color:'#FFFFFF'}}>{item.subTitle}</p>
                                         <div className="d-flex align-items-center">
                                        
                                         <button type="button" className="btn btn-danger Book_now me-5">Book Now</button>
                                         </div>
+                                       </Slide>
+
+                                        
                                     </div>
                                     <div className="col-md-6">
                                         <img

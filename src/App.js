@@ -11,7 +11,12 @@ import SignUp from './Components/Home/SignUp/SignUp';
 import AuthProvider from './Components/Context/AuthProvider';
 import Footer from './Components/Home/Footer/Footer';
 import Reset from './Components/Login/Reset';
-import Service from './Components/Home/services/Service';
+import Courses from './Components/Home/Courses/Courses';
+import SingleCourse from './Components/SingleCourse/SingleCourse';
+import PrivateRoute from './Components/Context/PrivateRoute';
+import ContactSection from './Components/Home/ContactSection/ContactSection';
+import Cart from './Components/Home/Cart/Cart';
+
 
 
 
@@ -24,14 +29,15 @@ function App() {
       <Switch>
         <Route exact path="/"><Home/> </Route>
         <Route path="/home"><Home/> </Route>
-        <Route path="/services"><Service/></Route>
+        <Route path="/Courses"><Courses/></Route>
         <Route path="/conditions"><HelpLine/></Route>
         <Route path="/aboutUs"><AboutUs/></Route>
         <Route path="/signup"><SignUp/></Route>
         <Route path="/reset"><Reset/></Route>
         <Route path="/login"><Login/></Route>
-        {/* <PrivateRoute path="/singleService/:id"><SingleService/></PrivateRoute>
-        <PrivateRoute path="/singleCondition/:id"><SingleCondition/></PrivateRoute> */}
+        <PrivateRoute path="/cart"><Cart/></PrivateRoute>
+        <Route path="/contactSection"><ContactSection/></Route>
+        <Route path="/singleCourse/:id"><SingleCourse/></Route>
         <Route path="*"><NotFound/></Route>
       </Switch>
       <Footer/>

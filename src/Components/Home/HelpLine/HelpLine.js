@@ -18,7 +18,7 @@ const HelpLine = () => {
                         {
                             HelpData.map((help, index) => {
                                 return (
-                                    <div key={index} className="col-lg-3 col-md-4 d-flex justify-content-center check-bg mt-5 g-4 mb-5">
+                                    <div key={index} className="col-lg-3 col-md-4 d-flex justify-content-between check-bg mt-5  mb-5">
                                    
                                        <div className="text-center ">
                                        <img src={help.Img} style={{height:'120px', width:'120px'}}/>

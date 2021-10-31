@@ -1,72 +1,113 @@
+
 [
 
 {
     "id": 1,
     "name":"Magic of Italy tour",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"8.0",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/Vg0Gyn5/Background-5.png",
     "price":"1020"
     
 },
 {
     "id": 2,
     "name":"Discover depth of beach",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"8.4",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/6ZNdT3t/Background-6.png",
     "price":"2020"
     
 },
 {
     "id": 3,
     "name":"National park 2 days tour",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"4.5",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/DKT72W7/Background-7.png",
     "price":"1270"
     
 },
 {
     "id": 4,
     "name":"Magic of Italy tour",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"7.0",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/NxSznBZ/Background-12.png",
     "price":"1420"
     
 },
 {
     "id": 5,
     "name":"Adventure of africa",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"4.5",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/7JsPWv1/Background-13.png",
     "price":"1520"
     
 },
 {
     "id": 6,
     "name":"Cold nature of SwitzerLand",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"9.0",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/3Mrnk3Z/Background-14.png",
     "price":"1620"
     
 },
 {
     "id": 7,
     "name":"Magic of Italy tour",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"6.5",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/BjXQwdB/Background-8.png",
     "price":"1820"
     
 },
 {
     "id": 8,
     "name":"National park 4 days tour",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"9.0",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/jGRy8YP/Background-9.png",
     "price":"1920"
     
 },
 {
     "id": 9,
     "name":"Magic of Italy tour",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"8.0",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/vZVDyx1/Background-10.png",
     "price":"820"
     
 },
 {
     "id": 10,
     "name":"Town of spain",
-    "img":"https://i.ibb.co/G5n5jdC/spain.png",
+    "rate":"8.0",
+    "title":"Overview",
+    "short":"There are many variations of passages of available but majority have alteration in some by inject humour or random words.",
+    "disc":"There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "img":"https://i.ibb.co/qydyBVz/Background-11.png",
     "price":"1020"
     
 }
