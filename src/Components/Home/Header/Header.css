@@ -3,7 +3,7 @@ Navbar {
     padding: 5px;
     color: black;
     display: flex;
-    height: 10px;
+    height: 5px;
 }
 a {
     text-decoration: none;

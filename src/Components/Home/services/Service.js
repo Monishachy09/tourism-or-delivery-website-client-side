@@ -1,7 +1,11 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide';
+import useAuth from '../../hooks/useAuth';
 
-const Services = () => {
+const Service = () => {
+    const { courses } = useAuth();
+
+
     return (
         <div>
             <div className="text-center">
@@ -16,4 +20,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Service;

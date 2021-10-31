@@ -1,5 +1,6 @@
 import React from 'react';
-import HelpData from '../../../AllData/HelpData.json'
+import HelpData from '../../../AllData/HelpData.json';
+import Slide from 'react-reveal/Slide';
 import './HelpLine.css';
 
 const HelpLine = () => {
@@ -7,8 +8,10 @@ const HelpLine = () => {
         <div>
               <section>
             <div id="helpline" className="container pb-5">
-                <div className="text-center info pt-5">
-                    <h3>What can we help you with?</h3>
+                <div className="text-center info pt-5 mb-4 mt-4">
+                <Slide bottom>
+          <h2 style={{color:'#E8614D'}}>What can you do for you?</h2>
+        </Slide>
                 </div>
                 <div className="row">
                     
