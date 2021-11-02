@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useEffect } from 'react';
 import Slide from 'react-reveal/Slide';
 import './Banner.css';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     const product = [
@@ -57,7 +58,7 @@ const Banner = () => {
                                        <p style={{color:'#FFFFFF'}}>{item.subTitle}</p>
                                         <div className="d-flex align-items-center">
                                        
-                                        <button type="button" className="btn btn-danger Book_now me-5">Book Now</button>
+                                       <button type="button" className="btn btn-danger Book_now me-5">Book Now</button>
                                         </div>
                                        </Slide>
 

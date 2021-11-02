@@ -1,6 +1,7 @@
 import InitializationAuthentication from "../../Firebase/Firebase.init";
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile, sendEmailVerification,  } from "firebase/auth";
 import { useState, useEffect } from "react";
+import { useHistory, useLocation } from "react-router";
 
 
 InitializationAuthentication()
@@ -12,7 +13,6 @@ const googleProvider = new GoogleAuthProvider();
 const auth = getAuth();
 
 const useFirebase = () => {
-
     const [user, setUser] = useState({});
     const [error, setError] = useState("");
     const [email, setEmail] = useState("");

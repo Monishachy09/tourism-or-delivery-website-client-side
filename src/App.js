@@ -9,13 +9,14 @@ import HelpLine from './Components/Home/HelpLine/HelpLine';
 import Login from './Components/Login/Login';
 import SignUp from './Components/Home/SignUp/SignUp';
 import AuthProvider from './Components/Context/AuthProvider';
-import Footer from './Components/Home/Footer/Footer';
 import Reset from './Components/Login/Reset';
 import Courses from './Components/Home/Courses/Courses';
 import SingleCourse from './Components/SingleCourse/SingleCourse';
 import PrivateRoute from './Components/Context/PrivateRoute';
 import ContactSection from './Components/Home/ContactSection/ContactSection';
 import Cart from './Components/Home/Cart/Cart';
+import Admin from './Components/Home/Admin/Admin';
+import AddService from './Components/Home/AddService.js/AddService';
 
 
 
@@ -35,12 +36,13 @@ function App() {
         <Route path="/signup"><SignUp/></Route>
         <Route path="/reset"><Reset/></Route>
         <Route path="/login"><Login/></Route>
+        <Route path="/AddService"><AddService/></Route>
         <PrivateRoute path="/cart"><Cart/></PrivateRoute>
+        <PrivateRoute path="/Admin"><Admin/></PrivateRoute>
         <Route path="/contactSection"><ContactSection/></Route>
         <Route path="/singleCourse/:id"><SingleCourse/></Route>
         <Route path="*"><NotFound/></Route>
       </Switch>
-      <Footer/>
       </Router>
    </AuthProvider>
   );

@@ -12,6 +12,8 @@
     width: 400px;
     background: darkgray;
     border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .center h1{
     text-align: center;

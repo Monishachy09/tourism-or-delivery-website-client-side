@@ -11,7 +11,7 @@ const AuthProvider = ({children}) => {
    const {courses} = Courses();
    const {AddToCart, selectedCourse } = useCart();
 
-   const data = {allContext, courses, AddToCart, selectedCourse };
+   const data = {allContext, courses, AddToCart, selectedCourse};
     return (
         <div>
             <AuthContext.Provider value={data}>
